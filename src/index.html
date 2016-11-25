@@ -6,16 +6,106 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Global Factoring Network</title>
         <link rel="stylesheet" href="static/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="static/css/slick.css"/>
         <link rel="stylesheet" href="static/css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
     </head>
 
-    <body class="container-fluid">
-        <header>
+    <body>
 
+        <header>
+            <div class="header_lines"></div>
+            <div class="container header">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="/" class="header_logo"></a>
+                    </div>
+                    <div class="col-md-6 header_text">
+                        <p><strong class="colored-text">Умный факторинг</strong> для развивающихся</p>
+                        <p>компаний малого и среднего бизнеса</p>
+                    </div>
+                    <div class="col-md-3 contacts">
+                        <p class="phone"><img src="static/img/phone.png" alt="" class="icon"><span>8-800-<strong>775-69-70</strong></span></p>
+                        <a href="mailto:info@factoring-network.ru" target="_top" class="mail"><img src="static/img/envelope.png" alt="" class="icon"><u>info@factoring-network.ru</u></a>
+                    </div>
+                </div>
+            </div>
         </header>
+
+        <section class="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="nav_sections">
+                            <li><a href="/" >Финансовые решения</a></li>
+                            <li><a href="/" >Бизнес инструменты</a>
+                                <ul>
+                                    <li><a href="/" >Подключение к Электронному документообороту</a></li>
+                                    <li><a href="/" >Оценка Контрагента</a></li>
+                                    <li><a href="/" >Управление Дебиторской задолженностью</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/" >Для инвесторов</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="slick_slider">
+            <div class="banner banner1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="banner_content">
+                                <div class="banner_title">Откройте возможности для роста бизнеса уже сейчас</div>
+                                <p>Мы предлагаем комплекс услуг, повышающих удобство</p>
+                                <p>ведения бизнеса.</p>
+                                <p><a href="/" class="button text-uppercase">получить деньги</a></p>
+                                <p><a href="/" class="small">Что такое факторинг?</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner banner2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="banner_content">
+                                <div class="banner_title">Second slide</div>
+                                <p>Lorem ipsum dolor sit amet, libero turpis</p>
+                                <p>non cras ligula, id commodo, aenean est in volutpat amet sodales</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner banner3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="banner_content">
+                                <div class="banner_title">Third slide</div>
+                                <p>Lorem ipsum dolor sit amet, libero turpis</p>
+                                <p>non cras ligula, id commodo, aenean est in volutpat amet sodales</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <footer>
 
         </footer>
+
+        <script src="static/js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="static/js/slick.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.slick_slider').slick();
+            });
+        </script>
     </body>
