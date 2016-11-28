@@ -1,0 +1,109 @@
+.slick_slider {
+  width: 100%;
+}
+
+.banner_container {
+  position: relative;
+}
+
+.banner {
+  height: 465px;
+  color: #fff;
+  background: url(../img/slider_banner.png) 50% 0 no-repeat;
+}
+
+.banner_content {
+  margin-top: 68px;
+}
+
+.banner_title {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 130%;
+  text-align: left;
+  text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.2);
+  width: 559px;
+  margin-bottom: 25px;
+}
+
+.banner_content p {
+  font-size: 18px;
+  line-height: 1.667;
+  text-align: left;
+  width: 491px;
+  margin-bottom: 6px;
+}
+
+.button {
+  display: block;
+  width: 254px;
+  height: 52px;
+  border-radius: 2px;
+  background-color: #333;
+  background-image: -moz-linear-gradient(90deg, rgb(215, 215, 215) 0%, rgb(255, 255, 255) 100%);
+  background-image: -webkit-linear-gradient(90deg, rgb(215, 215, 215) 0%, rgb(255, 255, 255) 100%);
+  background-image: -ms-linear-gradient(90deg, rgb(215, 215, 215) 0%, rgb(255, 255, 255) 100%);
+  box-shadow: 0px 2px 2px 0px rgba(224, 97, 97, 0.5), inset 0px 2px 0px 0px rgba(255, 255, 255, 0.004);
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
+  line-height: 52px;
+  text-align: center;
+  margin: 30px 0 25px;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.banner_link {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(231, 231, 231);
+  text-decoration: underline;
+  width: 142px;
+}
+
+.slide {
+  display: block;
+  width: 18px;
+  height: 81px;
+
+}
+
+.next_slide {
+  background: url(../img/next_slide.png) 0 0 no-repeat;
+  position: absolute;
+  top: 170px;
+  right: 13%;
+}
+
+.prev_slide {
+  background: url(../img/prev_slide.png) 0 0 no-repeat;
+  position: absolute;
+  top: 170px;
+  left: 13%;
+}
+
+.slick_dots {
+  min-width: 100px;
+  position: absolute;
+  bottom: 7%;
+  left: 15.5%;
+}
+
+.slick-dots li.slick-active, .slick-dots li:hover {
+  background: #fff;
+}
+
+.slick-dots li {
+  display: block;
+  float: left;
+  width: 12px;
+  height: 11px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  text-indent: -9999em;
+  margin-right: 11px;
+}

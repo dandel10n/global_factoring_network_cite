@@ -1,0 +1,57 @@
+.reasons_of_choice {
+  height: 492px;
+}
+
+.block_title {
+  font-size: 34px;
+  font-weight: 600;
+  color: #133a81;
+  text-align: center;
+  margin: 54px 0;
+}
+
+.block_content {
+  text-align: center;
+}
+
+.reason_icon {
+  margin-bottom: 30px;
+}
+
+.reason_title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1c1c1c;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reason_text {
+  font-size: 14px;
+  line-height: 1.429;
+  margin: auto;
+  width: 277px;
+  min-height: 71px;
+}
+
+.conditions {
+  background: url(../img/conditions_bcgrnd.png) 50% 0 no-repeat;
+  height: 449px;
+  color: #fff;
+
+  & .block_title {
+    color: #fff;
+  }
+}
+
+.condition_title {
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.condition_text {
+  font-size: 16px;
+  font-weight: 700;
+}

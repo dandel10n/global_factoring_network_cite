@@ -29,6 +29,8 @@ gulp.task('copy', function() {
         .pipe(gulp.dest('build/static/css'));
     gulp.src('src/*.html')
         .pipe(gulp.dest('build/'));
+    gulp.src('src/static_src/slick/**')
+        .pipe(gulp.dest('build/static/slick'))
 });
 
 //Scripts Task
