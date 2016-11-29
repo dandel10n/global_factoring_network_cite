@@ -17,16 +17,22 @@
             <div class="header_lines"></div>
             <div class="container header">
                 <div class="row">
-                    <div class="col-md-3">
-                        <a href="/" class="header_logo"></a>
-                    </div>
-                    <div class="col-md-6 header_text">
-                        <p><strong class="colored-text">Умный факторинг</strong> для развивающихся</p>
-                        <p>компаний малого и среднего бизнеса</p>
-                    </div>
-                    <div class="col-md-3 contacts">
-                        <p class="phone"><img src="static/img/phone.png" alt="" class="mini_img"><span>8-800-<strong>775-69-70</strong></span></p>
-                        <a href="mailto:info@factoring-network.ru" target="_top" class="mail"><img src="static/img/envelope.png" alt="" class="mini_img"><u>info@factoring-network.ru</u></a>
+                    <div class="col-md-12">
+                        <div class="block_content">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <a href="/" class="header_logo"></a>
+                                </div>
+                                <div class="col-md-6 header_text">
+                                    <p><strong class="colored-text">Умный факторинг</strong> для развивающихся</p>
+                                    <p>компаний малого и среднего бизнеса</p>
+                                </div>
+                                <div class="col-md-3 contacts">
+                                    <p class="phone"><img src="static/img/phone.png" alt="" class="mini_img"><span>8-800-<strong>775-69-70</strong></span></p>
+                                    <a href="mailto:info@factoring-network.ru" target="_top" class="mail"><img src="static/img/envelope.png" alt="" class="mini_img"><u>info@factoring-network.ru</u></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -192,6 +198,7 @@
                     <div class="col-md-12">
                         <div class="block_content">
                             <div class="block_content"><span>Мы предлагаем вам воспользоваться всеми преимуществами финансового нетворкинга &ndash;</span></br> комплексного эффективного решения в сфере финансирования бизнеса, страхования риска неплатежа и управления дебиторской задолженностью.</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -214,6 +221,48 @@
             </div>
         </section>
 
+        <section class="companies">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block_title">Мы активно развиваем бизнес с успешными компаниями</div>
+                        <div class="row">
+                            <div class="col-md-3"><img src="static/img/solidbank.png" alt="Солид банк"/></div>
+                            <div class="col-md-3"><img src="static/img/innosvet.png" alt="Инносвет"/></div>
+                            <div class="col-md-3"><img src="static/img/stroydom.png" alt="Стройдом"/></div>
+                            <div class="col-md-3"><img src="static/img/sozidant.png" alt="Созидант"/></div>
+                            <div class="col-md-3"><img src="static/img/ptm.png" alt="РТМ"/></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="companies_comments">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="block_title">Мы активно развиваем бизнес с успешными компаниями</div>
+                            <section class="slider_container">
+                                <div class="slick_slider2">
+                                    <div class="comment">
+                                        <p>Факторинговые решения, предлагаемые Global Factoring Network, являются удобными, технологичными и всегда соответстуют нашим амбициозным запросам. Сотрудничество с таким надежным финансовым партнером позволяет бизнесу нашей компании выйти на совершенно новый качественный уровень развития.</p>
+                                        <div class="comment_author">Константин Вагин<br/>ген. директор ИННОСВЕТ</div>
+                                    </div>
+
+                                    <div class="comment">
+                                        <p>В лице Global Factoring Network мы нашли серьезного предсказуемого партнера для компаний нашей группы.</p>
+                                        <div class="comment_author">Владимир Семернин,<br/> Президент ФД Солид</div>
+                                    </div>
+                                </div>
+                                <a href="#" class="slide next_slide2"></a>
+                                <a href="#" class="slide prev_slide2"></a>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
         <footer>
 
         </footer>
@@ -229,6 +278,16 @@
                     arrows: true,
                     nextArrow: $(".next_slide"),
                     prevArrow: $(".prev_slide")
+                });
+            });
+
+            $(document).ready(function(){
+                $('.slick_slider2').slick({
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    arrows: true,
+                    nextArrow: $(".next_slide2"),
+                    prevArrow: $(".prev_slide2")
                 });
             });
         </script>

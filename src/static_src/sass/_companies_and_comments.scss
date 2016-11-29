@@ -1,0 +1,38 @@
+.companies {
+  height: 380px;
+  background-color: #ededed;
+
+  .block_title {
+    font-size: 31px;
+    font-weight: 600;
+  }
+
+  .col-md-3 {
+    width: 20%;
+  }
+}
+
+.companies_comments {
+  background: url(../img/companies_words_bcgrnd.png) 50% 0 no-repeat;
+  height: 459px;
+  position: relative;
+
+  .block_title {
+    font-size: 31px;
+    font-weight: 600;
+  }
+}
+
+.next_slide2 {
+  background: url(../img/next_slide2.png) 0 0 no-repeat;
+  position: absolute;
+  top: 203px;
+  right: 13%;
+}
+
+.prev_slide2 {
+  background: url(../img/prev_slide2.png) 0 0 no-repeat;
+  position: absolute;
+  top: 203px;
+  left: 13%;
+}
