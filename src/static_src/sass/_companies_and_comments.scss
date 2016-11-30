@@ -27,12 +27,37 @@
   background: url(../img/next_slide2.png) 0 0 no-repeat;
   position: absolute;
   top: 203px;
-  right: 13%;
+  right: -10px;
 }
 
 .prev_slide2 {
   background: url(../img/prev_slide2.png) 0 0 no-repeat;
   position: absolute;
   top: 203px;
-  left: 13%;
+  left: -10px;
 }
+
+.comment {
+  margin: 0 15px;
+}
+
+.comment_text {
+  border-radius: 6px;
+  height: 181px;
+  background: rgba(#0082ad, 0.85);
+  padding: 25px;
+  font-size: 15px;
+  color: #f5f5f5;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.comment_author {
+  font-size: 15px;
+  font-weight: 600;
+  color: #071c22;
+  line-height: 1.7;
+  text-align: left;
+  margin-top: 25px;
+}
+

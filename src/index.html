@@ -14,14 +14,14 @@
     <body>
 
         <header>
-            <div class="header_lines"></div>
+            <div class="lines"></div>
             <div class="container header">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="block_content">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <a href="/" class="header_logo"></a>
+                                    <a href="/" class="logo"></a>
                                 </div>
                                 <div class="col-md-6 header_text">
                                     <p><strong class="colored-text">Умный факторинг</strong> для развивающихся</p>
@@ -29,7 +29,7 @@
                                 </div>
                                 <div class="col-md-3 contacts">
                                     <p class="phone"><img src="static/img/phone.png" alt="" class="mini_img"><span>8-800-<strong>775-69-70</strong></span></p>
-                                    <a href="mailto:info@factoring-network.ru" target="_top" class="mail"><img src="static/img/envelope.png" alt="" class="mini_img"><u>info@factoring-network.ru</u></a>
+                                    <a href="mailto:info@factoring-network.ru" class="mail"><img src="static/img/envelope.png" alt="" class="mini_img"><u>info@factoring-network.ru</u></a>
                                 </div>
                             </div>
                         </div>
@@ -246,13 +246,20 @@
                             <section class="slider_container">
                                 <div class="slick_slider2">
                                     <div class="comment">
-                                        <p>Факторинговые решения, предлагаемые Global Factoring Network, являются удобными, технологичными и всегда соответстуют нашим амбициозным запросам. Сотрудничество с таким надежным финансовым партнером позволяет бизнесу нашей компании выйти на совершенно новый качественный уровень развития.</p>
+                                        <div class="comment_text">Факторинговые решения, предлагаемые Global Factoring Network, являются удобными, технологичными и всегда соответстуют нашим амбициозным запросам. Сотрудничество с таким надежным финансовым партнером позволяет бизнесу нашей компании выйти на совершенно новый качественный уровень развития.</div>
                                         <div class="comment_author">Константин Вагин<br/>ген. директор ИННОСВЕТ</div>
                                     </div>
-
                                     <div class="comment">
-                                        <p>В лице Global Factoring Network мы нашли серьезного предсказуемого партнера для компаний нашей группы.</p>
+                                        <div class="comment_text">В лице Global Factoring Network мы нашли серьезного предсказуемого партнера для компаний нашей группы.</div>
                                         <div class="comment_author">Владимир Семернин,<br/> Президент ФД Солид</div>
+                                    </div>
+                                    <div class="comment">
+                                        <div class="comment_text">Third comment</div>
+                                        <div class="comment_author">Author</div>
+                                    </div>
+                                    <div class="comment">
+                                        <div class="comment_text">Fourth comment</div>
+                                        <div class="comment_author">Author</div>
                                     </div>
                                 </div>
                                 <a href="#" class="slide next_slide2"></a>
@@ -263,8 +270,117 @@
                 </div>
         </section>
 
-        <footer>
+        <section class="call_us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block_content">Хотите узнать стоимость услуг?</br>ЗВОНИТЕ!&nbsp;<span><em>8-800</em>-775-69-70</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="scheme">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block_title">Что нужно знать о факторинге</div>
+
+                        <div class="block_content">
+                            <div class="row">
+                                <div class="first_reason col-md-4">
+                                    <div class="icon"><img src="static/img/money_ruble_bag.png"></div>
+                                    <div class="scheme_title">100 000 <img src="static/img/ruble.png" alt="rubles"></div>
+                                    <p class="scheme_text">Размер дебиторской</br> задолженности</p>
+                                </div>
+                                <div class="second_reason col-md-4">
+                                    <div class="icon"><img src="static/img/big_dollar.png"></div>
+                                    <div class="scheme_title">90 000 <img src="static/img/ruble.png" alt="rubles"></div>
+                                    <p class="scheme_text">Получение первого</br> финансировния (платежа)</p>
+                                </div>
+                                <div class="third_reason col-md-4">
+                                    <div class="icon"><img src="static/img/coins.png"></div>
+                                    <div class="scheme_title">8 000 <img src="static/img/ruble.png" alt="rubles"></div>
+                                    <p class="scheme_text">Получение окончательного</br> расчета (второго платежа)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="time hours">
+                    <p>24 часа</p>
+                    <div><img src="static/img/dark_arrow.png"></div>
+                </div>
+                <div class="time days">
+                    <p>до 60 дней</p>
+                    <div><img src="static/img/light_arrow.png"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="questions">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="questions_block">
+                                <div><img src="static/img/man.png" alt=""></div>
+                                <div class="telephone_form">
+                                    <div class="block_title">
+                                        Остались вопросы?</br>
+                                        <span>Оставьте заявку и мы расскажем о факторинге</span><em> все!</em>
+                                    </div>
+                                    <form method="post"  id="userForm" action="">
+                                        <input type="tel" name="phone_number" placeholder="Ваш телефон">
+                                        <input type="submit" value="Заказать обратный звонок" id="submit">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <footer>
+            <div class="lines"></div>
+            <div class="container footer">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block_content">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <a class="logo" href="/"></a>
+                                </div>
+                                <div class="col-md-5 contacts">
+                                    <p class="phone"><img src="static/img/phone.png" alt="" class="mini_img"><span>8-800-<strong>775-69-70</strong></span></p>
+                                    <a href="mailto:info@factoring-network.ru" class="mail"><img src="static/img/envelope.png" alt="" class="mini_img"><u>info@factoring-network.ru</u></a>
+                                    <p class="address"><img src="static/img/location.png" alt="" class="mini_img">Москва, 123007 Хорошевское шоссе 32А</p>
+                                </div>
+                                <div class="col-md-2 social_media">
+                                    <a href="/" class="about">О компании</a>
+                                    <div>
+                                        <a href="/"><img src="static/img/instagram.png" class="social_media_link"></a>
+                                        <a href="/"><img src="static/img/ok.png" class="social_media_link"></a>
+                                        <a href="/"><img src="static/img/facebook.png" class="social_media_link"></a>
+                                        <a href="/"><img src="static/img/vk.png" class="social_media_link"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="module copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="block_content">
+                                <p>&copy; Global Factoring Network 2015</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
 
         <script src="static/js/jquery-3.1.1.min.js"></script>

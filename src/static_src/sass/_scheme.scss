@@ -1,0 +1,43 @@
+.scheme {
+  height: 431px;
+  position: relative;
+
+  &_title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #1fba9d;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+
+  &_text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+  .time {
+    color: #9a9a9a;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .hours {
+    position: absolute;
+    top: 165px;
+    left: 37%;
+  }
+
+  .days {
+    position: absolute;
+    top: 170px;
+    right: 35%;
+  }
+}
+
+
+
+

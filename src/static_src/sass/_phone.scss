@@ -1,0 +1,24 @@
+.call_us {
+  height: 169px;
+  background: url(../img/phone_bcgrnd.png) 50% 0 no-repeat;
+  padding-top: 25px;
+
+  .block_content {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.475;
+
+    span {
+      font-size: 43px;
+      color: #133a81;
+      font-weight: 400;
+
+      em {
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+

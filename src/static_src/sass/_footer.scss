@@ -1,0 +1,50 @@
+.footer {
+  height: 148px;
+  padding-top: 29px;
+
+  .phone {
+    font-size: 22px;
+    font-weight: 300;
+
+    strong {
+      font-weight: 400;
+    }
+  }
+}
+
+.copyright {
+  height: 36px;
+  line-height: 36px;
+  background-color: #e9e9ea;
+  font-size: 12px;
+  color: #333;
+}
+
+.contacts,
+.social_media {
+  text-align: left;
+}
+
+.address {
+  font-size: 14px;
+  color: #000;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.about {
+  display: block;
+  font-size: 13px;
+  color: #0082ad;
+  text-decoration: underline;
+  margin: 0 0 20px 5px;
+}
+
+.social_media {
+  padding-left: 40px;
+}
+
+.social_media_link {
+  margin-right: 2px;
+}
+
