@@ -1,5 +1,5 @@
 .footer {
-  height: 148px;
+  min-height: 148px;
   padding-top: 29px;
 
   .phone {
@@ -38,6 +38,11 @@
   color: #0082ad;
   text-decoration: underline;
   margin: 0 0 20px 5px;
+
+  &:hover {
+    text-decoration: none;
+    color: #0082ad;
+  }
 }
 
 .social_media {

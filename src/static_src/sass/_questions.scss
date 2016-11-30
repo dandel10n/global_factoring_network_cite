@@ -1,6 +1,7 @@
 .questions {
   height: 500px;
-  background: url(../img/questions_bcgrnd.png) 50% 0 no-repeat;
+  background: url(../img/questions_bcgrnd.png) 0 0 no-repeat;
+  position: relative;
 }
 
 .questions_block {
@@ -52,5 +53,12 @@ input {
     font-weight: 600;
     font-size: 18px;
   }
+}
+
+.vertical-logo {
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  margin: 0 -700px -150px 0;
 }
 

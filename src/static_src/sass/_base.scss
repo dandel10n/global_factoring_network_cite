@@ -13,9 +13,15 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #000;
+  max-width: 1920px;
+  margin: auto;
 }
 
 .container {
   width: 1110px;
   min-width: 1110px;
+}
+
+a:hover {
+  text-decoration: none;
 }

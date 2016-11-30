@@ -1,5 +1,5 @@
 .scheme {
-  height: 431px;
+  min-height: 431px;
   position: relative;
 
   &_title {
@@ -27,14 +27,16 @@
 
   .hours {
     position: absolute;
-    top: 165px;
-    left: 37%;
+    top: 50%;
+    left: 50%;
+    margin: -60px 0 0 -210px;
   }
 
   .days {
     position: absolute;
-    top: 170px;
-    right: 35%;
+    top: 50%;
+    left: 50%;
+    margin: -60px 0 0 130px;
   }
 }
 
