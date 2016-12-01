@@ -1,4 +1,4 @@
-# global_factoring_network_cite
+# global_factoring_network_site
 
 ## How to clone the project
 ```
